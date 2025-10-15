@@ -1,61 +1,77 @@
 # Aula 01 Criar projeto React JS com o Vite, Estrutura do projeto
 
-## Criar projeto React JS
+## Criar o Projeto3-React
 
-1. Abra o terminal de comandos, no caso eu usei o Hyper
-2. Acesse a sua pasta de projetos. Ex.: cd web
-3. Digite o seguinte comando:
+### Instalação e Criação do Projeto
 
-`npx create-vite@latest portfolio --template react`
+1.	Abra o VsCode na pasta onde deseja guardar o projeto
+2.	Abra um novo terminal (integrado no VSCode)
+3.	Execute o comando: `npm create vite@latest`
+4.	Responda as perguntas e aguarde o processo de criação do projeto com o Vite
+│
+◇  Project name:
+│  Projeto3-React
+│
+◇  Package name:
+│  projeto3-react
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:
+│  No
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in D:\Front-end\Desenvolvedor Front-End\Vite\Projeto3-React...
+│
+◇  Installing dependencies with npm...
 
-> Acesse o link https://vitejs.dev para mais informações
+added 153 packages, and audited 154 packages in 34s
 
-4. Em seguida entre na pasta portfolio
+32 packages are looking for funding
+  run `npm fund` for details
 
-`cd portfolio`
+found 0 vulnerabilities
+│
+◇  Starting dev server...
 
-5. Digite o comomando:
+> projeto3-react@0.0.0 dev
+> vite
 
-`npm install`
+Verifique o carregamento da Aplicação React no seu browser,
+   irá abrir no endereço http://localhost:xxx
 
-Aguarde o processo de criação do projeto com o Vite.
-Para abrir o projeto no VS Code, no terminal digite o comando:
+ VITE v7.1.10  ready in 421 ms
 
-`code .`
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+21:09:59 [vite] (client) page reload index.html
+21:10:01 [vite] (client) page reload index.html (x2)
+    
 
-6. No VS Code abra o Terminal integrado usando o atalho:
+### Estrutura do projeto
 
-CTRL + J ou CTRL + '
-
-7. No terminal integrado do VS Code digite o comando:
-
-`npm run dev`
-
-Aguarde o carregamento da Aplicação React no seu browser,
-irá abrir no endereço http://localhost:4157
-
-8. Na raiz do projeto abra o index.html
+1. Na raiz do projeto abra o index.html
 
 > Mude o título da página para `<title>Portfólio</title>`
 
-Salve a alteração (CTRL + S) e veja o resultado no browser.
+2. Na estrutura de pastas dentro de src, abrir o arquivo App.jsx
 
-9. Na estrutura de pastas dentro de src está o arquivo App.jsx abra ele.
-
-9.1 Apague todo o conteúdo que está dentro do fragment do return e digite
+3. Apague todo o conteúdo que está dentro do return e digite
 ~~~html
 <h1>Olá Mundo!</h1>
 ~~~
 
-9.2 Apague a `const count do useState` que não vamos usar nesse projeto
+4. Apague a `const [count, setCount] = useState(0)` que não vamos usar nesse projeto
 
-9.3 Apague as linhas de `import` que não estão mais sendo usadas
+5. Apague as linhas de `import` que não estão mais sendo usadas
 
-Salve a alteração (CTRL + S) e veja o resultado no browser.
-
-10. Apague os arquivos `vite.svg` que está na pasta `public` e o arquivo `react.svg` que está na pasta assets dentro de `src`.
-
-> Após apagar o arquivo vite.svg o favicon da página não irá aparecer. Não se preocupe, vamos usar o nosso próprio favicon.
 
 Estes são os passos básicos para criar um projeto react usando Vite.
 
