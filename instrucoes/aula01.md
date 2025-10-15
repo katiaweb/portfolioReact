@@ -8,51 +8,46 @@
 2.	Abra um novo terminal (integrado no VSCode)
 3.	Execute o comando: `npm create vite@latest`
 4.	Responda as perguntas e aguarde o processo de criação do projeto com o Vite
-│
-◇  Project name:
-│  Projeto3-React
-│
-◇  Package name:
-│  projeto3-react
-│
-◇  Select a framework:
-│  React
-│
-◇  Select a variant:
-│  JavaScript
-│
-◇  Use rolldown-vite (Experimental)?:
-│  No
-│
-◇  Install with npm and start now?
-│  Yes
-│
-◇  Scaffolding project in D:\Front-end\Desenvolvedor Front-End\Vite\Projeto3-React...
-│
-◇  Installing dependencies with npm...
+Project name:
+Projeto3-React
 
+Package name:
+projeto3-react
+
+Select a framework:
+React
+
+Select a variant:
+JavaScript
+
+Use rolldown-vite (Experimental)?:
+No
+
+Install with npm and start now?
+Yes
+
+Scaffolding project in D:\Front-end\Desenvolvedor Front-End\Vite\Projeto3-React...
+│
+Installing dependencies with npm...
 added 153 packages, and audited 154 packages in 34s
-
 32 packages are looking for funding
-  run `npm fund` for details
-
+run `npm fund` for details
 found 0 vulnerabilities
-│
-◇  Starting dev server...
 
-> projeto3-react@0.0.0 dev
-> vite
-
+Starting dev server...
+projeto3-react@0.0.0 dev
+vite
 Verifique o carregamento da Aplicação React no seu browser,
-   irá abrir no endereço http://localhost:xxx
+irá abrir no endereço http://localhost:xxx
 
  VITE v7.1.10  ready in 421 ms
 
-  ➜  Local:   http://localhost:5173/
+  ➜  Local: http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 21:09:59 [vite] (client) page reload index.html
 21:10:01 [vite] (client) page reload index.html (x2)
+
     
 
 ### Estrutura do projeto
