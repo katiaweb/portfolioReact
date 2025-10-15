@@ -1,12 +1,19 @@
-# Aula 02 Organizar projeto, criar página Home e componentes [43:04]
+# Aula 02 Organizar projeto, criar página Home e componentes
 
-> O nosso projeto terá o seguinte modelo do figma
+> O nosso projeto terá o seguinte modelo do figma do professor Edson Maia
 > https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
+
 
 ## Imagens e Favicon
 
-Inicialmente, precisamos copiar 3 arquivos favicon.svg, developer-blue.svg, developer-red.svg para a pasta public
+Pesquise em https://www.svgrepo.com/ de 3 arquivos:
+
+favicon.svg, developer-blue.svg, developer-red.svg 
+
+Vamos salvar na pasta public
+
 Em seguida, vamos mudar o favicon no arquivo index.html
+
 
 ## Organização do projeto
 
