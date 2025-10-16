@@ -13,22 +13,22 @@
 6.	Responda as perguntas e aguarde o processo de criação do projeto com o Vite
 
 
-Project name:
+* Project name:
 Projeto3-React
 
-Package name:
+* Package name:
 projeto3-react
 
-Select a framework:
+* Select a framework:
 React
 
-Select a variant:
+* Select a variant:
 JavaScript
 
-Use rolldown-vite (Experimental)?:
+* Use rolldown-vite (Experimental)?:
 No
 
-Install with npm and start now?
+* Install with npm and start now?
 Yes
 
 Scaffolding project in D:\Front-end\Desenvolvedor Front-End\Vite\Projeto3-React...
@@ -68,16 +68,15 @@ irá abrir no endereço http://localhost:xxx
 
 2. Na estrutura de pastas dentro de src, abrir o arquivo App.jsx
 
-3. Apague todo o conteúdo que está dentro do return e digite
-~~~html
-<h1>Olá Mundo!</h1>
-~~~
+      - Apague todo o conteúdo que está dentro do return e digite:
+      ~~~html
+      <h1>Olá Mundo!</h1>
+      ~~~
+      - Apague a `const [count, setCount] = useState(0)`  (não vamos usar nesse projeto)
 
-4. Apague a `const [count, setCount] = useState(0)` que não vamos usar nesse projeto
-
-5. Apague as linhas de `import` que não estão mais sendo usadas
+      - Apague as linhas de `import` que não estão mais sendo usadas
 
 
 Estes são os passos básicos para criar um projeto react usando Vite.
 
-Salve Devs, até a próxima aula dessa nossa série.
+Até a próxima aula dessa nossa série.
