@@ -21,32 +21,41 @@ Em seguida, vamos mudar o favicon no arquivo index.html
 
 ### Criar pastas pages e components
 
-Dentro de src
-1. Criar pasta pages
-2. Criar pasta components
+1. Dentro de src:
+   * Criar pasta pages
+   * Criar pasta components
 
-## Criar componente Header
+### Criar componente Header
 
-Dentro de \src\components
-1. Crie a pasta 'Header'
-2. Dentro de Header crie os arquivos 'index.jsx' e 'Header.module.css'
+2. Dentro de \src\components
+   * Criar a pasta 'Header'
+   * Dentro de Header criar 2 arquivos:
+     - 'index.jsx'
+     - 'Header.module.css'
 
-Criar componente Container
+### Criar componente Container
 
-Dentro de \src\components
-1. Crie a pasta 'Container'
-2. Dentro de Header crie os arquivos 'index.jsx' e 'Container.module.css'
+3. Dentro de \src\components
+   * Criar a pasta 'Container'
+   * Dentro de Header criar 2 arquivos:
+     - 'index.jsx'
+     - 'Container.module.css'
 
-Criar componente Footer
+### Criar componente Footer
 
-Dentro de \src\components
-1. Crie a pasta 'Footer'
-2. Dentro de Header crie os arquivos 'index.jsx' e 'Footer.module.css'
+4. Dentro de \src\components
+   * Criar a pasta 'Footer'
+   * Dentro de Footer criar 2 arquivos:
+     - 'index.jsx'
+     - 'Footer.module.css'
 
-## Componente Header
 
-1. Abra o arquivo index.jsx de Header
-2. Faça o seguinte código:
+## Códigos Página Home 
+
+### JSX de Header
+
+1. Abrir o arquivo index.jsx de Header
+   * Faça o seguinte código:
 
 ~~~javascript
 import styles from './Header.module.css'
@@ -54,7 +63,7 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <header className={styles.header}>
-            <span>edsonMaia.dev</span>
+            <span>seu nome</span>
             <nav>
                 <a href="">Home</a>
                 <a href="">Sobre</a>
@@ -71,7 +80,7 @@ export default Header
 
 3. Salve as alterações.
 
-## CSS do Header
+### CSS do Header
 
 1. Abra o arquivo Header.module.css
 2. Faça o seguinte código:
