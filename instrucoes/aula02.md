@@ -6,11 +6,13 @@
 
 ## Imagens e Favicon
 
-Pesquise em https://www.svgrepo.com/ de 3 arquivos:
+1. Pesquise em https://www.svgrepo.com/ de 3 arquivos:
 
-favicon.svg, developer-blue.svg, developer-red.svg 
+    * favicon.svg,
+    * developer-blue.svg,
+    * developer-red.svg 
 
-Vamos salvar na pasta public
+2. Salvar na pasta public
 
 Em seguida, vamos mudar o favicon no arquivo index.html
 
